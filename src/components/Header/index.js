@@ -9,7 +9,8 @@ import {
   LogoText,
   Logo,
   Header,
-  HeaderImage
+  HeaderImage,
+  Title
 } from "./styles";
 
 import image from "../../assets/img03.jpg";
@@ -40,6 +41,9 @@ export default function Main() {
           </MenuItem>
         </Menu>
       </ContainerMenu>
+      <Title>
+        WORKOUT <br /> FOR ALL
+      </Title>
     </Container>
   );
 }

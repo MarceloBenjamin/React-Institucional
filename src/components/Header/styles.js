@@ -18,7 +18,7 @@ export const HeaderImage = styled.img`
 `;
 
 export const ContainerMenu = styled.div`
-  background-color: rgba(5, 5, 5, 0.6);
+  background-color: rgba(5, 5, 5, 0.7);
   display: flex;
   padding-left: 7%;
   padding-right: 7%;
@@ -61,4 +61,14 @@ export const LogoText = styled.p`
   margin-right: 15px;
   margin-left: 0;
   color: #ffc299;
+`;
+
+export const Title = styled.h1`
+  position: absolute;
+  color: #ffc299;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+  margin-top: 300px;
+  font-size: 47pt;
 `;
